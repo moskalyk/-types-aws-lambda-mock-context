@@ -1,0 +1,35 @@
+{
+  "name": "typed-aws-lambda-mock-context",
+  "version": "1.0.0",
+  "description": "A TypeScript Typings definition for the node module aws-lambda-mock-context.",
+  "main": "aws-lambda-mock-context-tests.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.7",
+    "aws-lambda-mock-context": "^3.0.1",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/alexa-sdk": "^1.0.4",
+    "alexa-sdk": "^1.0.7",
+    "aws-lambda-mock-context": "^3.0.1",
+    "tslint": "^4.5.1"
+  },
+  "scripts": {
+    "test": "tsc ./*.ts && node ./*.js",
+    "lint": "./node_modules/.bin/tslint -c tslint-test.json '*.ts?(x)'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moskalyk/typed-aws-lambda-mock-context.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moskalyk/typed-aws-lambda-mock-context/issues"
+  },
+  "homepage": "https://github.com/moskalyk/typed-aws-lambda-mock-context#readme"
+}

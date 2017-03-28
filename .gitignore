@@ -1,5 +1,2 @@
 node_modules/
-tslint
-test
-tslint-test.json
 *.js
