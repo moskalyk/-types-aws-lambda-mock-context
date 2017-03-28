@@ -19,5 +19,4 @@ const launchRequestJson: any = {
 };
 
 const ctx = context();
-let alexa: Alexa.AlexaObject = null;
-alexa = Alexa.handler(launchRequestJson, ctx);
+const alexa = Alexa.handler(launchRequestJson, ctx);
