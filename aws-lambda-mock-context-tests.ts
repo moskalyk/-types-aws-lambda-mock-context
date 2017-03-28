@@ -9,7 +9,7 @@ const launchRequestJson: any = {
     type: "LaunchRequest"
   },
   session: {
-    application: {applicationId: "amzn1.ask.skill.bf17d55e-5f5f-4cb6-a89a-e0177f6b7fce"},
+    application: {applicationId: "amzn1.ask.skill.[unique-value-here]"},
     attributes: {},
     new: false,
     sessionId: "amzn1.echo-api.session.[unique-value-here]",
